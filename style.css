@@ -1,0 +1,11 @@
+@import url("navbar.css");
+@import url("header.css");
+@import url("main.css");
+
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Carme&display=swap');
+
+body{
+    background-color: #212121;
+}
+

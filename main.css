@@ -1,0 +1,60 @@
+.center2 a {
+    font-size: 150px;
+    line-height: 1;
+    word-break: break-all;
+    max-width: 3ch;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #686868;
+    text-decoration: none;
+    padding: 20px;
+    float: left; /*Adiciona float para posicionar à esquerda */
+
+}
+
+.center2 .conteudo {
+    margin-left: 20px; /* Adiciona margem à esquerda para a caixa de texto ficar ao lado do link */
+}
+
+.center2 h1 {
+    color: #FFF;
+    font-family: Carme;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.center2 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #958E8E;
+    font-weight: 300;
+    line-height: 25px; /* 104.167% */
+    padding: 20px;
+}
+
+.caixa-texto,
+.caixa-texto2 {
+    border-radius: 10px;
+    background: rgba(153, 153, 153, 0.04);
+    box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.10);
+    width: 860px;
+    height: 350px;
+    margin-left: 340px;
+    
+}
+
+.caixa-texto{
+    margin-top: 400px;
+}
+
+.center2::before{
+    content: ""; /* Adiciona content para o seletor ::before */
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 200px;
+    height: 100%;
+    background-color: yellow;
+}
